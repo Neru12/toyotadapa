@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>belajar bs</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kay+Pho+Du:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        </style>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <!-- navbar -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">TOYOTA</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                        Jenis
+                      </a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="https://www.bing.com/ck/a?!&&p=d3a918fbe7f47818JmltdHM9MTcyNzkxMzYwMCZpZ3VpZD0zZGEyYzM0My0zODg1LTZlNWYtMDQ2Yy1kNzlmMzlkMzZmZTEmaW5zaWQ9NTIwMA&ptn=3&ver=2&hsh=3&fclid=3da2c343-3885-6e5f-046c-d79f39d36fe1&psq=wiki+suv&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvU1VWIzp-OnRleHQ9QSBzcG9ydCB1dGlsaXR5IHZlaGljbGUgKFNVVikgaXMgYSBjYXIgY2xhc3NpZmljYXRpb24gdGhhdA&ntb=1">SUV</a>
+                        <a class="dropdown-item" href="https://www.bing.com/ck/a?!&&p=d00adb983deee444JmltdHM9MTcyNzkxMzYwMCZpZ3VpZD0zZGEyYzM0My0zODg1LTZlNWYtMDQ2Yy1kNzlmMzlkMzZmZTEmaW5zaWQ9NTE5NQ&ptn=3&ver=2&hsh=3&fclid=3da2c343-3885-6e5f-046c-d79f39d36fe1&psq=wiki+coupe&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvQ291cGUjOn46dGV4dD1BIGNvdXBlIG9yIGNvdXDDqSAoLyBrIHXLkCDLiCBwIGXJqg&ntb=1>Coupe">Coupe</a>
+                        <a class="dropdown-item" href="https://www.bing.com/ck/a?!&&p=4b7e36dc94589e32JmltdHM9MTcyNzkxMzYwMCZpZ3VpZD0zZGEyYzM0My0zODg1LTZlNWYtMDQ2Yy1kNzlmMzlkMzZmZTEmaW5zaWQ9NTE5NA&ptn=3&ver=2&hsh=3&fclid=3da2c343-3885-6e5f-046c-d79f39d36fe1&psq=wiki+sport+car&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvU3BvcnRzX2NhciM6fjp0ZXh0PUEgc3BvcnRzIGNhciBpcyBhIHR5cGUgb2YgY2FyIHRoYXQgaXM&ntb=1">Sport</a>
+                        <div class="dropdown-divider"></div>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://www.bing.com/ck/a?!&&p=042874a793aaf630JmltdHM9MTcyNzkxMzYwMCZpZ3VpZD0zZGEyYzM0My0zODg1LTZlNWYtMDQ2Yy1kNzlmMzlkMzZmZTEmaW5zaWQ9NTE5Ng&ptn=3&ver=2&hsh=3&fclid=3da2c343-3885-6e5f-046c-d79f39d36fe1&psq=toyota+profilr+global&u=a1aHR0cHM6Ly9nbG9iYWwudG95b3RhL2VuL2NvbXBhbnkvcHJvZmlsZS9vdmVydmlldy8jOn46dGV4dD1Ub3lvdGEgTW90b3IgQ29ycG9yYXRpb24gU2l0ZSBpbnRyb2R1Y2VzICJPdmVydmlldyIuIFRveW90YSBzdHJpdmVzIHRvIGJl&ntb=1">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.bing.com/ck/a?!&&p=64bb5efbb594db2aJmltdHM9MTcyNzkxMzYwMCZpZ3VpZD0zZGEyYzM0My0zODg1LTZlNWYtMDQ2Yy1kNzlmMzlkMzZmZTEmaW5zaWQ9NTIwNw&ptn=3&ver=2&hsh=3&fclid=3da2c343-3885-6e5f-046c-d79f39d36fe1&psq=toyota+contact&u=a1aHR0cHM6Ly93d3cudG95b3RhLmNvbS9zdXBwb3J0L2NvbnRhY3QtdXMvP21zb2NraWQ9M2RhMmMzNDMzODg1NmU1ZjA0NmNkNzlmMzlkMzZmZTE&ntb=1">Hubungi</a>
+                      </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <button class="btn btn-primary my-2 my-sm-0 mr-2" type="submit">Masuk</button>
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Daftar</button>
+                  </form>
+                </div>
+              </nav>
+              <!-- navbar end -->
+        <div class="row">
+        <div class="col align-self-center">
+            <h1 class="kay-pho-du-bold">Cars I Love From TOYOTA</h1>
+            <p class="mt-3 mb-4">
+               
+            </p>
+            <a class="btn btn-warning" href="https://www.bing.com/ck/a?!&&p=52ded4340a37d49aJmltdHM9MTcyNzkxMzYwMCZpZ3VpZD0zZGEyYzM0My0zODg1LTZlNWYtMDQ2Yy1kNzlmMzlkMzZmZTEmaW5zaWQ9NTQ5MQ&ptn=3&ver=2&hsh=3&fclid=3da2c343-3885-6e5f-046c-d79f39d36fe1&psq=toyota+global&u=a1aHR0cHM6Ly9nbG9iYWwudG95b3RhL2VuL21vYmlsaXR5L3RveW90YS1icmFuZC9nYWxsZXJ5Lw&ntb=1" role="button">Gallery</a>
+        </div>
+        <div class="col">
+        <img src="OIG1.jpeg" alt="cina" width="600">
+    </div>
+</div>
+</div>
+
+<div class="container mt-5 mb-5">
+  <div class="row" style="display: flex;justify-content: space-between;">
+<div class="card" style="width: 18rem;">
+  <img src="WhatsApp Image 2024-10-03 at 20.02.30_945ec2d0.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h2 class="card-title whisper-regular text-dark">AE86 Trueno</h2>
+    <p class="card-text">Toyota AE86, yang diproduksi antara tahun 1983 dan 1987, merupakan bagian dari generasi keenam Toyota Corolla. Dikenal sebagai Trueno (hatchback) dan Levin (coupe), mobil ini menjadi salah satu ikon di dunia otomotif, terutama dalam kultur balap dan drifting.</p>
+    <a href="https://www.bing.com/ck/a?!&&p=35d8984e68a17fb4JmltdHM9MTcyNzkxMzYwMCZpZ3VpZD0zZGEyYzM0My0zODg1LTZlNWYtMDQ2Yy1kNzlmMzlkMzZmZTEmaW5zaWQ9NTIxNQ&ptn=3&ver=2&hsh=3&fclid=3da2c343-3885-6e5f-046c-d79f39d36fe1&psq=wiki++ae86+tureno&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvVG95b3RhX0FFODYjOn46dGV4dD1UaGUgQUU4NiBzZXJpZXMgb2YgdGhlIFRveW90YSBDb3JvbGxhIExldmluIGFuZCBUb3lvdGE&ntb=1" class="btn btn-primary">More Info</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="WhatsApp Image 2024-10-03 at 20.20.54_c90166d0.jpg"  class="card-img-top" alt="...">
+  <div class="card-body">
+    <h2 class="card-title whisper-regular text-dark">Supra MK4</h2>
+    <p class="card-text">Toyota Supra adalah mobil sport dan grand tourer yang diproduksi oleh Toyota Motor Corporation sejak 1978. Nama "Supra" berasal dari awalan Latin yang berarti "di atas", "melampaui", atau "melebihi".</p>
+    <a href="https://www.bing.com/ck/a?!&&p=1b34fc777ab87abfJmltdHM9MTcyNzkxMzYwMCZpZ3VpZD0zZGEyYzM0My0zODg1LTZlNWYtMDQ2Yy1kNzlmMzlkMzZmZTEmaW5zaWQ9NTIwMg&ptn=3&ver=2&hsh=3&fclid=3da2c343-3885-6e5f-046c-d79f39d36fe1&psq=wiki++supra+mk4&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvVG95b3RhX1N1cHJhIzp-OnRleHQ9VGhlIFRveW90YSBTdXByYSAoSmFwYW5lc2U6IOODiOODqOOCv-ODu-OCueODvOODl-ODqSwgSGVwYnVybjogVG95b3RhIFPFq3B1cmEpIGlzIGE&ntb=1" class="btn btn-primary">More Info</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="WhatsApp Image 2024-10-03 at 20.26.55_f8601f4c.jpg"  alt="...">
+  <div class="card-body">
+    <h2 class="card-title whisper-regular text-dark">MR2 spyder</h2>
+    <p class="card-text">Toyota MR2 Spyder adalah model roadster yang diperkenalkan pada tahun 2000 sebagai generasi ketiga dari MR2. Mobil ini terkenal dengan desain kompak dan penggerak roda belakang, memberikan pengalaman berkendara yang sporty dan menyenangkan.</p>
+    <a href="https://www.bing.com/ck/a?!&&p=852f909da0827720JmltdHM9MTcyNzkxMzYwMCZpZ3VpZD0zZGEyYzM0My0zODg1LTZlNWYtMDQ2Yy1kNzlmMzlkMzZmZTEmaW5zaWQ9NTIxNQ&ptn=3&ver=2&hsh=3&fclid=3da2c343-3885-6e5f-046c-d79f39d36fe1&psq=wiki+mr2+spyder+2006&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvVG95b3RhX01SMiM6fjp0ZXh0PVRoZSBUb3lvdGEgTVIyIGlzIGEgbGluZSBvZiB0d28tc2VhdGVyLCBtaWQtZW5naW5lZCwgcmVhci13aGVlbC1kcml2ZQ&ntb=1" class="btn btn-primary">More Info</a>
+  </div>
+</div>
+</div>
+</div>
+</div>
+    </section>
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</body>
+</html>
